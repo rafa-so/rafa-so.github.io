@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,4 +48,11 @@ section#contato, section#projetos {
 
 h1, h2 {
     color: #333;
+}
+
+/* Estilo atualizado para a tag <p> */
+p {
+    font-size: 120%; /* Aumenta o tamanho da fonte em 20% */
+    line-height: 1.8; /* Aumenta o espaçamento entre as linhas */
+    margin-bottom: 1.5rem; /* Ajusta a margem inferior */
 }
