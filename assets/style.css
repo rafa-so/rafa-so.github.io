@@ -63,6 +63,7 @@ p {
     display: flex;
     justify-content: left;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .social-links li {
