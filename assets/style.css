@@ -50,9 +50,29 @@ h1, h2 {
     color: #333;
 }
 
-/* Estilo atualizado para a tag <p> */
 p {
     font-size: 120%; /* Aumenta o tamanho da fonte em 20% */
     line-height: 1.8; /* Aumenta o espaçamento entre as linhas */
     margin-bottom: 1.5rem; /* Ajusta a margem inferior */
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+}
+
+.social-links li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.social-links li i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
 }
